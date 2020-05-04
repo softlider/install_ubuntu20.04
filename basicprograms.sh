@@ -1,8 +1,8 @@
 #!/bin/bash
 
 echo "Instalando programas básicos"
-echo "Os seguinte programas serão instalandos: unrar, gimp, vlc, inkscape, curl, filezilla, gdebi, gparted, ssh, audacity, net-tools, snapd"
-sudo apt install -y unrar gimp vlc inkscape curl filezilla gdebi gparted git ssh audacity net-tools snapd
+echo "Os seguinte programas serão instalandos: unrar, gimp, vlc, inkscape, curl, filezilla, gdebi, gparted, ssh, audacity, net-tools, snapd, default-jdk"
+sudo apt install -y unrar gimp vlc inkscape curl filezilla gdebi gparted git ssh audacity net-tools snapd default-jdk
 echo "Configurando o GIT"
 sudo git config --global user.name "softlider"
 sudo git config --global user.email "webmaster@softlider.com.br"
