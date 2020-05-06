@@ -98,7 +98,7 @@ pergunta(){
         ;;
         d|D)
             echo "Ok. Desistalando o programa($1)"
-            sudo apt remove --purge $1 -y
+            sudo apt remove --purge $1 mariadb-common -y
             echo "Apagando a pasta do $1"
             sudo rm -rf /etc/$1
             sudo rm -rf /usr/sbin/$1
